@@ -1,0 +1,27 @@
+/*styling the body*/
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(to right, black, rgb(0, 0, 40)); 
+    color: white; /* Make text visible */
+    margin: 0;
+    text-align: center;
+}
+
+/* Styling the heading */
+h1 {
+    font-size: 2.5rem;
+    font-family: Arial, sans-serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Add text shadow */
+}
+
+/* Styling the video */
+video {
+    width: 80%;
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
